@@ -1,0 +1,76 @@
+body{
+    background-image: url(wxg.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section {
+    margin:auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Seagram TFB';
+    color: black;
+}
+
+h2 {
+    font-family: 'Seagram TFB';
+    font-weight: 800;
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+
+p {
+    font-size: 35pt;
+    font-family: 'Seagram TFB';
+    color: black;
+}
+   
+a.tbl-merah {
+    font-family: 'Seagram TFB';
+    background: red;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 8px 12px 8px 12px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+a.tbl-merah:hover {
+    background: black;
+    text-decoration: none;
+    color: red;
+}
+
+a.tbl-hijau {
+    font-family: 'Seagram TFB';
+    background:rgb(9, 223, 9);
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px 15px 10px 15px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    
+    
+}
+
+a.tbl-hijau:hover {
+    background: black;
+    color: rgb(9, 223, 9);
+    text-decoration: none;
